@@ -1,5 +1,5 @@
 # Rubber themes
-A collection of color schemes with minimal amount of highlighting for Vim. Based on [rubber-theme](https://github.com/apust/vscode-rubber-theme) for VSCode. .
+A collection of color schemes with minimal amount of highlighting for Vim. Based on [rubber-theme](https://github.com/apust/vscode-rubber-theme) for VSCode.
 
 Inspired by the same premise of the [alabaster color scheme](https://github.com/tonsky/sublime-scheme-alabaster) for Sublime Text it defines just four classes:
 - Strings
@@ -34,3 +34,10 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 syntax enable
 colorscheme rubber
 ```
+
+## Screenshots
+- rubber
+![preview rubber](https://raw.githubusercontent.com/VonHeikemen/rubber-themes.vim/master/assets/screenshot-rubber.png)
+
+- rubber-owl
+![preview rubber-owl](https://raw.githubusercontent.com/VonHeikemen/rubber-themes.vim/master/assets/screenshot-rubber-owl.png)
