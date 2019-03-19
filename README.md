@@ -37,7 +37,9 @@ colorscheme rubber
 
 ## Screenshots
 - rubber
+
 ![preview rubber](https://raw.githubusercontent.com/VonHeikemen/rubber-themes.vim/master/assets/screenshot-rubber.png)
 
 - rubber-owl
+
 ![preview rubber-owl](https://raw.githubusercontent.com/VonHeikemen/rubber-themes.vim/master/assets/screenshot-rubber-owl.png)
