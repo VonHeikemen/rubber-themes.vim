@@ -36,6 +36,7 @@ let s:dark_gray      = {"gui": "#737C8C", "cterm": "8"  }
 let s:gray           = {"gui": "#181A1F", "cterm": "234"}
 let s:wild_red       = {"gui": "#DF334A", "cterm": "167"}
 let s:dark_blue      = {"gui": "#3B4049", "cterm": "238"}
+let s:darkness       = {"gui": "#3B4252", "cterm": "238"}
 
 
 " Constants
@@ -75,11 +76,17 @@ call s:h("CursorLineNr", {"fg": s:none,         "bg": s:none        })
 call s:h("ColorColumn",  {"fg": s:none,         "bg": s:bright_black})
 call s:h("LineNr",       {"fg": s:dark_gray,    "bg": s:none        })
 call s:h("EndOfBuffer",  {"fg": s:dark_gray,    "bg": s:none        })
-call s:h("VertSplit",    {"fg": s:bright_black, "bg": s:none        })
+call s:h("VertSplit",    {"fg": s:darkness,     "bg": s:none        })
 call s:h("Folded",       {"fg": s:bright_black, "bg": s:none        })
 call s:h("FoldColumn",   {"fg": s:bright_black, "bg": s:none        })
 call s:h("PMenu",        {"fg": s:none,         "bg": s:dark_blue   })
 call s:h("PMenuSel",     {"fg": s:none,         "bg": s:bright_black})
+call s:h("TabLine",      {"fg": s:none,         "bg": s:darkness    })
+call s:h("TabLineFill",  {"fg": s:none,         "bg": s:darkness    })
+call s:h("TabLineSel",   {"fg": s:bright_white, "bg": s:black       })
+call s:h("StatusLine",   {"fg": s:bright_white, "bg": s:darkness    })
+call s:h("StatusLineNC", {"fg": s:dark_gray,    "bg": s:darkness    })
+call s:h("WildMenu",     {"fg": s:black,        "bg": s:yellow      })
 call s:h("MatchParen",   {"fg": s:black,        "bg": s:dark_gray   })
 call s:h("Visual",       {"fg": s:white,        "bg": s:dark_blue   })
 call s:h("Search",       {"fg": s:black,        "bg": s:yellow      })
