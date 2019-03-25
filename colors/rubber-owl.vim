@@ -88,8 +88,8 @@ call s:h("StatusLineNC", {"fg": s:gray,         "bg": s:darkness    })
 call s:h("WildMenu",     {"fg": s:black,        "bg": s:magenta     })
 call s:h("MatchParen",   {"fg": s:black,        "bg": s:bright_black})
 call s:h("Visual",       {"fg": s:white,        "bg": s:sad_blue    })
-call s:h("Search",       {"fg": s:black,        "bg": s:magenta     })
 call s:h("IncSearch",    {"fg": s:black,        "bg": s:magenta     })
+call s:h("Search",       {"fg": s:black,        "bg": s:magenta     })
 
 
 " ============================================================================ "
@@ -139,10 +139,26 @@ call s:h("Todo",           {"fg": s:none,     "bg": s:none })
 
 " Language: Diff
 " Syntax: built-in
-call s:h("DiffAdd",              {"fg": s:black,      "bg": s:green})
-call s:h("DiffChange",           {"fg": s:black,      "bg": s:cyan })
-call s:h("DiffDelete",           {"fg": s:black,      "bg": s:red  })
-call s:h("DiffText",             {"fg": s:black,      "bg": s:cyan })
+call s:h("DiffAdd",    {"fg": s:black,      "bg": s:green})
+call s:h("DiffChange", {"fg": s:black,      "bg": s:cyan })
+call s:h("DiffDelete", {"fg": s:black,      "bg": s:red  })
+call s:h("DiffText",   {"fg": s:black,      "bg": s:cyan })
+
+
+" UI: Netrw
+hi! link netrwDir      Function
+hi! link netrwHelpCmd  Special
+
+
+" Plugin: NERDTree
+hi! link NERDTreeDir       Function
+hi! link NERDTreeDirSlash  Function
+hi! link NERDTreeUp        Function
+hi! link NERDTreeOpenable  Function
+hi! link NERDTreeClosable  Function
+hi! link NERDTreeToggleOn  Boolean
+hi! link NERDTreeToggleOff Boolean
+hi! link NERDTreeHelp      Comment
 
 
 " Language: HTML
