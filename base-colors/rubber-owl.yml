@@ -1,0 +1,42 @@
+scheme: "rubber-owl"
+author: "Heiker"
+
+# special
+foreground: "#D6DEEB"
+background: "#011627"
+selection_foreground: "#D6DEEB"
+selection_background: "#1D3B53"
+cursor: "#80A4C2"
+
+# black
+color00: "#011627"
+color08: "#5F6672"
+
+# red
+color01: "#FF869A"
+color09: "#FF869A"
+
+# green
+color02: "#98C379"
+color10: "#98C379"
+
+# yellow
+color03: "#ECC48D"
+color11: "#ECC48D"
+
+# blue
+color04: "#82AAFF"
+color12: "#82AAFF"
+
+# magenta
+color05: "#C792EA"
+color13: "#C792EA"
+
+# cyan
+color06: "#56B6C2"
+color14: "#56B6C2"
+
+# white
+color07: "#D6DEEB"
+color15: "#D4D7D9"
+
