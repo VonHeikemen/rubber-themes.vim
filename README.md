@@ -37,11 +37,17 @@ colorscheme rubber
 
 ## Screenshots
 - rubber
-*background:* #21252B 
-[base colors for terminal](https://github.com/VonHeikemen/rubber-themes.vim/base-colors/rubber.yml)
+
+**background:** #21252B
+
+[base colors for terminal](https://github.com/VonHeikemen/rubber-themes.vim/blob/master/base-colors/rubber.yml)
+
 ![preview rubber](https://raw.githubusercontent.com/VonHeikemen/rubber-themes.vim/master/assets/screenshot-rubber.png)
 
 - rubber-owl
-*background:* #011627
-[base colors for terminal](https://github.com/VonHeikemen/rubber-themes.vim/base-colors/rubber-owl.yml)
+
+**background:** #011627
+
+[base colors for terminal](https://github.com/VonHeikemen/rubber-themes.vim/blob/master/base-colors/rubber-owl.yml)
+
 ![preview rubber-owl](https://raw.githubusercontent.com/VonHeikemen/rubber-themes.vim/master/assets/screenshot-rubber-owl.png)
