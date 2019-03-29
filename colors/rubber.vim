@@ -70,7 +70,7 @@ endfunction
 " ============================================================================ "
 
 call s:h("Normal",       {"fg": s:foreground,   "bg": s:none        })
-call s:h("Cursor",       {"fg": s:none,         "bg": s:white       })
+call s:h("Cursor",       {"fg": s:black,        "bg": s:white       })
 call s:h("CursorLine",   {"fg": s:none,         "bg": s:dark_blue   })
 call s:h("CursorLineNr", {"fg": s:none,         "bg": s:none        })
 call s:h("ColorColumn",  {"fg": s:none,         "bg": s:bright_black})
