@@ -146,6 +146,7 @@ call s:h("DiffText",   {"fg": s:black,      "bg": s:cyan })
 
 
 " UI: Netrw
+hi! link Directory     Function
 hi! link netrwDir      Function
 hi! link netrwHelpCmd  Special
 
