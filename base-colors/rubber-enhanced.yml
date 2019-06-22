@@ -1,0 +1,42 @@
+scheme: "rubber-enhanced"
+author: "Heiker"
+
+# special
+foreground: "#DADFE1"
+background: "#2F343F"
+selection_foreground: "#DADFE1"
+selection_background: "#3B4049"
+cursor: "#DADFE1"
+
+# black
+color00: "#2F343F"
+color08: "#5F6672"
+
+# red
+color01: "#FC8680"
+color09: "#FC8680"
+
+# green
+color02: "#87D37C"
+color10: "#87D37C"
+
+# yellow
+color03: "#F2CA27"
+color11: "#F2CA27"
+
+# blue
+color04: "#89C4F4"
+color12: "#89C4F4"
+
+# magenta
+color05: "#DDA0DD"
+color13: "#DDA0DD"
+
+# cyan
+color06: "#50C6D8"
+color14: "#50C6D8"
+
+# white
+color07: "#DADFE1"
+color15: "#D4D7D9"
+
