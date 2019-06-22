@@ -27,15 +27,15 @@ let s:green          = {"gui": "#87D37C", "cterm": "114"}
 let s:magenta        = {"gui": "#DDA0DD", "cterm": "182"}
 let s:red            = {"gui": "#FC8680", "cterm": "210"}
 let s:yellow         = {"gui": "#F2CA27", "cterm": "220"}
-let s:white          = {"gui": "#DADFE1", "cterm": "253"}
+let s:white          = {"gui": "#D2D7D3", "cterm": "188"}
 
 let s:bright_black   = {"gui": "#5F6672", "cterm": "242"}
-let s:bright_white   = {"gui": "#D4D7D9", "cterm": "188"}
+let s:bright_white   = {"gui": "#DADFE1", "cterm": "253"}
 
-let s:dark_gray      = {"gui": "#737C8C", "cterm": "8"  }
+let s:dark_gray      = {"gui": "#939393", "cterm": "246"}
 let s:gray           = {"gui": "#8893A6", "cterm": "103"} 
 let s:wild_red       = {"gui": "#DF334A", "cterm": "167"}
-let s:dark_blue      = {"gui": "#3B4049", "cterm": "238"}
+let s:dark_blue      = {"gui": "#242830", "cterm": "235"}
 let s:darkness       = {"gui": "#3B4252", "cterm": "238"}
 
 

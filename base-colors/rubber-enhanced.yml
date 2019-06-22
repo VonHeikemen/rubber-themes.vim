@@ -2,11 +2,11 @@ scheme: "rubber-enhanced"
 author: "Heiker"
 
 # special
-foreground: "#DADFE1"
+foreground: "#D2D7D3"
 background: "#2F343F"
-selection_foreground: "#DADFE1"
+selection_foreground: "#D2D7D3"
 selection_background: "#3B4049"
-cursor: "#DADFE1"
+cursor: "#D2D7D3"
 
 # black
 color00: "#2F343F"
@@ -37,6 +37,6 @@ color06: "#50C6D8"
 color14: "#50C6D8"
 
 # white
-color07: "#DADFE1"
-color15: "#D4D7D9"
+color07: "#D2D7D3"
+color15: "#DADFE1"
 
