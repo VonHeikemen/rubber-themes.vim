@@ -27,7 +27,8 @@ let s:green          = {"gui": "#87D37C", "cterm": "114"}
 let s:magenta        = {"gui": "#DDA0DD", "cterm": "182"}
 let s:red            = {"gui": "#FC8680", "cterm": "210"}
 let s:yellow         = {"gui": "#F2CA27", "cterm": "220"}
-let s:white          = {"gui": "#D2D7D3", "cterm": "188"}
+let s:white          = {"gui": "#DCE0DD", "cterm": "253"}
+
 
 let s:bright_black   = {"gui": "#5F6672", "cterm": "242"}
 let s:bright_white   = {"gui": "#DADFE1", "cterm": "253"}
