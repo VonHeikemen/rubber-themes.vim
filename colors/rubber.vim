@@ -228,6 +228,12 @@ hi! link jsxAttrib        Normal
 hi! link twigString String
 
 
+" Language: Ruby
+" Syntax: 'vim-ruby/vim-ruby'
+hi! link rubyClassName Function
+hi! link rubyModuleName Function
+
+
 " ============================================================================ "
 " ===                             TERM COLORS                              === "
 " ============================================================================ "
