@@ -229,8 +229,11 @@ hi! link twigString String
 
 " Language: Ruby
 " Syntax: 'vim-ruby/vim-ruby'
-hi! link rubyClassName Function
-hi! link rubyModuleName Function
+hi! link rubyClassName        Function
+hi! link rubyModuleName       Function
+hi! link rubySymbol           Number
+hi! link rubyMagicComment     Comment
+hi! link rubyHeredocDelimiter Special
 
 
 " ============================================================================ "

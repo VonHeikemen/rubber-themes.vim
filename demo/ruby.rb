@@ -11,6 +11,14 @@ class Api::V1::UsersController < ApplicationController
 
   PER_PAGE = 10
 
+  QUERY = <<-SQL
+    SELECT * FROM users;
+  SQL
+
   def index
+    {
+      foo: 1
+      bar: 'abc'
+    }
   end
 end
