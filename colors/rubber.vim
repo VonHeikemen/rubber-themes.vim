@@ -237,6 +237,12 @@ hi! link rubyMagicComment     Comment
 hi! link rubyHeredocDelimiter Special
 
 
+" airblade/vim-gitgutter
+call s:h("GitGutterAdd",    {"fg": s:green, "bg": s:none})
+call s:h("GitGutterChange", {"fg": s:cyan,  "bg": s:none})
+call s:h("GitGutterDelete", {"fg": s:red,   "bg": s:none})
+
+
 " ============================================================================ "
 " ===                             TERM COLORS                              === "
 " ============================================================================ "
