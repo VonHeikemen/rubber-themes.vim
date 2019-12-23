@@ -243,6 +243,11 @@ call s:h("GitGutterChange", {"fg": s:cyan,  "bg": s:none})
 call s:h("GitGutterDelete", {"fg": s:red,   "bg": s:none})
 
 
+" Python
+hi! link pythonDecorator Special
+hi! link pythonDecoratorName Normal
+hi! link pythonBuiltin Normal
+
 " ============================================================================ "
 " ===                             TERM COLORS                              === "
 " ============================================================================ "
