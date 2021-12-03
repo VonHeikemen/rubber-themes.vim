@@ -249,6 +249,16 @@ hi! link pythonDecorator Special
 hi! link pythonDecoratorName Normal
 hi! link pythonBuiltin Normal
 
+
+" Treesitter support
+if has('nvim-0.5')
+  hi! link TSConstructor Normal
+  hi! link TSVariableBuiltin Normal
+  hi! link TSConstBuiltin Number
+  hi! link TSFuncBuiltin Function
+  hi! link luaTSPunctBracket Normal
+endif
+
 " ============================================================================ "
 " ===                             TERM COLORS                              === "
 " ============================================================================ "
